@@ -1,0 +1,185 @@
+h1 {
+    margin-top: 23px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #333333;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #f6fafb;
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 3px;
+    display: inline-block;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 700;
+}
+
+h4 {
+    margin: 0;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #333333;
+    font-weight: 700;
+    text-align: center;
+}
+
+h5 {
+    display: inline-block;
+    margin: 0;
+    font-size: 20px;
+    color: #333333;
+    font-weight: 700;
+}
+
+h6 {
+    margin: 0;
+    padding-top: 14px;
+    padding-bottom: 9px;
+    font-size: 24px;
+    line-height: 45px;
+    color: #333333;
+    font-weight: 700;
+    text-align: center;
+}
+
+.table {
+    margin: auto;
+    width: 600px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    border-collapse: collapse;
+}
+
+.logo {
+    vertical-align: bottom;
+}
+
+.letter {
+    margin-top: 0;
+    margin-bottom: 35px;
+    padding-right: 80px;
+    padding-left: 80px;
+    font-size: 18px;
+    color: #748098;
+    font-weight: 400;
+    text-align: center;
+}
+
+.blue_paragraph {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #169ab5;
+    font-weight: 700;
+    text-align: center;
+}
+
+.customer_contact_details {
+    display: inline-block;
+    margin: 0;
+    color: #7d889f;
+}
+
+.ordered_goods {
+    display: inline-block;
+    margin: 0;
+    color: #748098;
+}
+
+.cell_h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    filter: drop-shadow(0 0 5px rgba(0,0,0,0.2));
+    background-color: #169ab5;
+    background-image: url(../images/cell_h2_bacground.jpg);
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.registration_warning {
+    padding-bottom: 25px;
+    font-size: 14px;
+    color: #748098;
+    font-style: italic;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.our_offers_cell {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.our_offers {
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    filter: drop-shadow(0 0 2.5px rgba(0,0,0,0.25));
+    background-color: #eaeaea;
+    background-image: url(../images/our_offers_background.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.our_offers a {
+    display: inline-block;
+    font-size: 16px;
+    color: #169ab5;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.web_design_image {
+    width: 53px;
+    height: 44px;
+}
+
+.seo_image {
+    width: 48px;
+    height: 49px;
+}
+
+.smm_image {
+    width: 52px;
+    height: 44px;
+}
+
+.h5_web_design {
+    padding-left: 23px;
+}
+
+.h5_seo_image {
+    padding-left: 28px;
+}
+
+.h5_smm_image {
+    padding-left: 25px;
+}
+
+.our_offers td:last-child {
+    text-align: right;
+}
+
+.social_networks {
+    text-align: center;
+}
+
+.social_networks a {
+    padding-left: 8px;
+}
