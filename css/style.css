@@ -10,6 +10,8 @@ h1 {
 
 h2 {
     font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 30px;
     color: #f6fafb;
     font-weight: 700;
     text-align: center;
@@ -18,7 +20,6 @@ h2 {
 h3 {
     margin-top: 0;
     margin-bottom: 3px;
-    display: inline-block;
     font-size: 18px;
     color: #333333;
     font-weight: 700;
@@ -39,6 +40,7 @@ h5 {
     display: inline-block;
     margin: 0;
     font-size: 20px;
+    letter-spacing: 1px;
     color: #333333;
     font-weight: 700;
 }
@@ -72,6 +74,7 @@ h6 {
     padding-right: 80px;
     padding-left: 80px;
     font-size: 18px;
+    line-height: 27px;
     color: #748098;
     font-weight: 400;
     text-align: center;
@@ -81,21 +84,35 @@ h6 {
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 24px;
+    letter-spacing: 1px;
     color: #169ab5;
     font-weight: 700;
     text-align: center;
 }
 
 .customer_contact_details {
-    display: inline-block;
     margin: 0;
     color: #7d889f;
 }
 
-.ordered_goods {
-    display: inline-block;
-    margin: 0;
+.customer_contact_details b,
+.ordered_goods b {
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 700;
+}
+
+.registration_warning {
+    padding-bottom: 25px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 21px;
     color: #748098;
+    font-style: italic;
+    font-family: "Arial";
+    text-align: center;
 }
 
 .cell_h2 {
@@ -108,14 +125,6 @@ h6 {
     background-position: center;
 }
 
-.registration_warning {
-    padding-bottom: 25px;
-    font-size: 14px;
-    color: #748098;
-    font-style: italic;
-    font-family: "Arial";
-    text-align: center;
-}
 
 .our_offers_cell {
     padding-top: 10px;
@@ -131,7 +140,7 @@ h6 {
     padding-bottom: 10px;
     filter: drop-shadow(0 0 2.5px rgba(0,0,0,0.25));
     background-color: #eaeaea;
-    background-image: url(../images/our_offers_background.jpg);
+    background-image: url("https://raw.githubusercontent.com/AndreyCh1/hashtad_newsletter/master/images/our_offers_background.jpg");
     background-repeat: repeat;
     background-position: center;
     border-radius: 5px;
@@ -140,6 +149,7 @@ h6 {
 .our_offers a {
     display: inline-block;
     font-size: 16px;
+    letter-spacing: 1px;
     color: #169ab5;
     font-weight: 600;
     text-decoration: none;
